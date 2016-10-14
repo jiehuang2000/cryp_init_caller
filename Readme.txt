@@ -6,6 +6,11 @@ bsub Rscript ~/determine_cryptic_jumps_and_rates_faster.R ~/single_gene_seq.txt 
 # args[1] == inputfile, args[2] == outfile1, arg[3] == outfile2,
 # args[4] == 0
 
+make sure the following 3 R packages are installed: 
+lpSolve
+Matrix
+methods
+
 
 format of single_gene_seq.txt file:
 1st line: WT group gene info
