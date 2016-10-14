@@ -30,3 +30,9 @@ genename, gene length, cryptic initiation site, y, z, MSRLD.
 formate of the loss.txt file:
 a list of number with the following information:
 MSRL value of each position of the gene CDS (except for the starting and ending 150bp respectively).
+
+rule of thumb: 
+High cryptic initiation: MSRLD >=4
+Intermediate cryptic initiation: 2 <= MSRLD < 4
+Low cryptic initiation: 0 <= MSRLD < 2
+Not quite trustworthy (bad fitting): Min(MSRL) > 15
