@@ -10,17 +10,17 @@ bsub Rscript ~/determine_cryptic_jumps_and_rates_faster.R ~/single_gene_seq.txt 
 format of single_gene_seq.txt file:
 1st line: WT group gene info
 2nd line: SET2 deleted group gene info
-1st column: Genome name
+1st column: Gene name
 2nd column: Chromosom number
 3rd column: CDS start position
 4th column: CDS end position
 5th column: 1
 6th column: strand infomation
-7th column and after: reads starting from CDS position 1 to the end of CDS
+7th column and after: reads starting from CDS position 1 to the end of CDS (No nan allowed)
 
 format of the output.txt file:
 a list of numbers with the following information:
-genename, gene length, jump point position, y, z, MSRLD.
+genename, gene length, cryptic initiation site, y, z, MSRLD.
 
 formate of the loss.txt file:
 a list of number with the following information:
