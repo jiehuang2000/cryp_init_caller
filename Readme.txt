@@ -1,7 +1,7 @@
 performing test run:
 
 
-bsub Rscript ~/determine_cryptic_jumps_and_rates_faster.R ~/single_gene_seq.txt ~/output.txt ~/loss.txt 0
+bsub Rscript ~/determine_cryptic_jumps_and_rates.R ~/single_gene_seq.txt ~/output.txt ~/loss.txt 0
 
 # args[1] == inputfile, args[2] == outfile1, arg[3] == outfile2,
 # args[4] == 0
