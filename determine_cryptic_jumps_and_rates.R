@@ -1,7 +1,9 @@
 #bsub Rscript ~/determine_cryptic_jumps_and_rates.R ~/single_gene_seq.txt ~/output.txt ~/loss.txt 0
 
-# args[1] == inputfile, args[2] == outfile1:genename, gene.len, theta, y, z, Diff , arg[3] == outfile, loss value of all sites
-# args[4] == 0/1, if we want stepsize=1, args[4] = 0, if want stepsize=100, args[4] == 1
+# args[1] == input file, the sample file is in the same folder using gene Lcb5,
+# args[2] == output file: genename, gene.len, CIS(i.e., theta), y, z, MSRLD, 
+# arg[3] == output file, MSRL value of all positions except the beginning and ending 150bp, 
+# args[4] == 0/1, if we want stepsize=1, args[4] = 0, if want stepsize=100, default args[4] == 1
 
 library(lpSolve)
 library(Matrix)
