@@ -1,5 +1,5 @@
 
-#in terminal
+#in terminal 
 
   # cd /proj/strahllb/users/Jie/Stephen/test/
   # mkdir 2834
