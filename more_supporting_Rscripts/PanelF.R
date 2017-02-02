@@ -99,4 +99,4 @@ text(x[avo1]  ,y[lcb5]+1.5, 'avo1')
 legend('topleft', legend=paste0(round(sum(y>0 & x<0)/length(as.avg),4)*100, '%'))
 
 # 
-dev.off()
+dev.off() 
