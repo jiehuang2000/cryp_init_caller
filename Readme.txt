@@ -16,7 +16,7 @@ format of single_gene_seq.txt file:
 1st line: WT group gene info
 2nd line: SET2 deleted group gene info
 1st column: Gene name
-2nd column: Chromosom number
+2nd column: Chromosome number
 3rd column: CDS start position
 4th column: CDS end position
 5th column: 1
